@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>5个div</title>
+<style >
+div{
+	background:red;	
+	position:absolute;
+	width:50px;
+	height:50px;
+	top:50%;
+	left:50%;
+}
+#d1{
+	margin: -75px 0px 0px -25px;
+}
+/*独立编号*/
+[id ^= d2]{
+	margin: -25px 0px 0px -25px;
+}
+#d2_1{
+	margin-left:-75px;	
+}
+#d2_3
+{
+	margin-left:25px;	
+}
+#d3{
+	margin: 25px 0px 0px -25px;
+}
+</style>
+</head>
+<body>
+	<div id="d1"></div>
+<div id="d2_1"></div>
+<div id="d2_2"></div>
+<div id="d2_3"></div>
+<div id="d3"></div>
+</body>
+</html>
